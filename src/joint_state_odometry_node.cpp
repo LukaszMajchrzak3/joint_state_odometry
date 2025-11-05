@@ -12,8 +12,8 @@ public:
   {
     this->declare_parameter<std::vector<std::string>>("left_wheel_joints", {"Joint 509", "Joint 510"});
     this->declare_parameter<std::vector<std::string>>("right_wheel_joints", {"Joint 511", "Joint 512"});
-    this->declare_parameter<double>("wheel_radius", 0.05);
-    this->declare_parameter<double>("wheel_separation", 0.35);
+    this->declare_parameter<double>("wheel_radius", 0.105);
+    this->declare_parameter<double>("wheel_separation", 2.0);
     this->declare_parameter<bool>("publish_tf", true);
     this->declare_parameter<std::string>("odom_frame_id", "odom");
     this->declare_parameter<std::string>("base_frame_id", "base_link");
